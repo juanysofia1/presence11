@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(226, 202, 171);
+}
+
+.segundapagina{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segundapagina .btn{
+  
+    width: fit-content;
+    margin: 50px;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px ;
+}
+
+.segundapagina .btn:hover{
+    color: grey;
+}
+
+.segundapagina .atras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.segundapagina .atras a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: fit-content;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.segundapagina .atras a:hover{
+    color: grey;
+}
+
+
