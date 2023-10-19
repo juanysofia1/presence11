@@ -95,3 +95,47 @@ a:hover{
  .Guardar a:hover{
  color: grey;
 } */
+
+tr, td, th{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+th{
+    font-size: 24px;
+}
+table{
+    border: 2px solid black;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="date"]{
+    width: 150px;
+    height: 20px;
+    text-align: right;
+    font-size: 16px;
+    background-color: rgb(224, 224, 224);
+}
+select, option{
+    background-color: rgb(224, 224, 224);
+    font-size: 16px;
+    padding: 0 10px;
+
+}
